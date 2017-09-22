@@ -1,10 +1,10 @@
-# kaggle_titanic
+# Model Creation for the Titanic Dataset on Kaggle
 
 Results for the various models:
 
 Logistic Regrssion: 0.75598
 
-Random Forest:      0.
+Random Forest:      0.7464
 
 Boosted Gradient:   0.7511
 
@@ -13,7 +13,7 @@ Log loss for the various models:
 
 Logistic Regrssion: 0.4455
 
-Random Forest:      0.
+Random Forest:      0.2813
 
 Boosted Gradient:   0.259
 
@@ -23,4 +23,4 @@ Boosted Gradient:   0.259
 This was a good practice with different models.  Overall the gradient boosted model seemed to perform the best, but this model took a significant amount of time to optimize.  The initial creation of the model performed similar to the optimized case  The initial fit of the random forest model was significantly overfit, but once that was corrected the model produced reasonable results.  Even though the logistic model was simple it performed well.
 
 
-The nature of the cross validation meant there could be significant changes to the hyper parameters, with only small changes to the overall score.
+The nature of the cross validation meant there could be significant changes to the hyper parameters, with only small changes to the overall score.  Also depending on which data was selected to which split could have a small effect on the final hyperparameters and the results.
